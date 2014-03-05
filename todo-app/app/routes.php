@@ -19,3 +19,10 @@ Route::get('/', function()
 Route::get('test',function(){
     return View::make('test');
 });
+
+Route::get('users',function(){
+    $users = User::all();
+    
+    return View::make('users')->with('users', $users);
+    
+});
