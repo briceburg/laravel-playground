@@ -1,0 +1,17 @@
+#### APP
+vendor/
+
+#### LANG
+# PHP
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+
+#### IDE
+/.project
+/.classpath
+/.buildpath
+/.settings/
+.DS_Store
+Thumbs.db

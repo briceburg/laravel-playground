@@ -1,0 +1,10 @@
+#### APP
+/vendor
+/bootstrap/compiled.php
+
+#### LANG
+# PHP
+composer.phar
+composer.lock
+.env.local.php
+.env.php
